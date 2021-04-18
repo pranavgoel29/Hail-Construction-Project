@@ -7,7 +7,7 @@ main {
 
 .bg {
     /* The image used */
-    background-image: url("best.jpg");
+    background-image: url("../media/best.jpg");
     filter: brightness(1.011);
     /* Full height */
     height: 70%;
