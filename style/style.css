@@ -190,7 +190,7 @@ nav li a:hover {
 .about p {
   margin-top: 50px;
   text-align: left;
-  padding: 20px;
+  margin-left: 0;
   font-weight: normal;
 }
 
