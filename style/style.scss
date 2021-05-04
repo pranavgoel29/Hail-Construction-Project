@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,500;1,700&display=swap');
 :root {
-    --primary-color: rgb(19, 109, 255);
+    --primary-color: rgb(24, 201, 255);
 }
 
 body {
@@ -61,7 +61,7 @@ section {
 }
 
 .primary-cta {
-    background: var(--primary-color);
+    background: rgb(0, 124, 226);
     color: rgb(236, 236, 236);
     text-decoration: none;
     padding: .6em 1.3em;
