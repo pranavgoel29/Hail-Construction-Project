@@ -201,14 +201,46 @@ nav li a:hover {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar .logo {
-    text-decoration: none;
-    font-weight: bold;
-    color: #F2F2F2;
-    margin-top: 6px;
-    font-size: 1.4em;
+@media only screen and (min-width: 868px) {
+  .navbar nav .secondary-nav {
+    display: none;
   }
+  ul.primary-nav {
+    margin: 0;
+  }
+  .primary-cta {
+    margin-left: 1.6em;
+    margin-top: 0;
+  }
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero {
+    margin-top: 10em;
+  }
+  .hero h1 {
+    text-align: left;
+  }
+  .hero p {
+    text-align: left;
+  }
+  .hero section {
+    padding: 8em 4em;
+  }
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .navbar nav .secondary-nav {
     display: none;
   }
