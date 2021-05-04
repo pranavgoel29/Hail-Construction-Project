@@ -212,11 +212,6 @@ nav li a:hover {
     margin-left: 1.6em;
     margin-top: 0;
   }
-  ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .hero {
     margin-top: 10em;
   }
