@@ -166,7 +166,8 @@ nav li a:hover {
 }
 
 .history,
-.about {
+.about,
+.contact {
     padding: 40px;
     h1 {
         margin-top: 0;
@@ -185,6 +186,47 @@ nav li a:hover {
         text-align: left;
         margin-left: 0;
         font-weight: normal;
+    }
+}
+
+.gform_wrapper .gform_fields li {
+    padding: 0 !important;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    list-style-type: none !important;
+    list-style: none !important;
+    padding-right: 16px !important;
+    margin-right: -4px;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-col-2,
+    .footer-col-3 {
+        flex-basis: 18%;
+        text-align: center;
+    }
+    .hp {
+        color: #8a8a8a;
+        text-align: center;
+    }
+    .footer h3 {
+        color: #f1f1f1;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0s;
+        text-align: center;
+        padding-inline-start: 0px;
+    }
+    .container_1 {
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 25px;
     }
 }
 
