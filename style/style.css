@@ -52,6 +52,42 @@ section {
   text-align: center;
 }
 
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+.contact-left h3 {
+  margin-bottom: 3em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .4em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.send-message-cta {
+  background-color: #007ce2;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: .8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
 .left-col h1 {
   color: black;
   font-size: 3em;
@@ -165,15 +201,83 @@ nav li a:hover {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 868px) {
+  .primary-cta {
+    margin-left: 1.6em;
+  }
+  .hero {
+    margin-top: 10em;
+  }
+  .hero h1 {
+    text-align: left;
+  }
+  .hero p {
+    text-align: left;
+  }
+  .hero section {
+    padding: 8em 4em;
+  }
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu,
+  .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 20;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar nav ul.secondary-nav {
+    margin: 0;
+    margin-left: 10;
+  }
+}
+
 .history,
 .about,
-.contact {
+.contact-left {
   padding: 40px;
 }
 
 .history h1,
 .about h1,
-.contact h1 {
+.contact-left h1 {
   margin-top: 0;
   color: var(--heading-color);
   font-size: 4.4em;
@@ -183,7 +287,7 @@ nav li a:hover {
 
 .history h3,
 .about h3,
-.contact h3 {
+.contact-left h3 {
   text-align: left;
   margin-top: 0;
   color: #2d8fff;
@@ -191,22 +295,11 @@ nav li a:hover {
 
 .history p,
 .about p,
-.contact p {
+.contact-left p {
   margin-top: 50px;
   text-align: left;
   margin-left: 0;
   font-weight: normal;
-}
-
-.gform_wrapper .gform_fields li {
-  padding: 0 !important;
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  list-style-type: none !important;
-  list-style: none !important;
-  padding-right: 16px !important;
-  margin-right: -4px;
 }
 
 @media screen and (max-width: 640px) {
